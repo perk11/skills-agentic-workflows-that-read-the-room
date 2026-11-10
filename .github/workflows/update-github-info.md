@@ -16,6 +16,7 @@ network:
   allowed:
     - github.blog
     - github.com
+    - awesome-copilot.github.com
 safe-outputs:
   create-pull-request:
     max: 1
@@ -27,10 +28,11 @@ safe-outputs:
 
 Read `notes/mona-notes.md` and the current `site/content/github-info.md` before making changes.
 
-Use both of these official sources as inputs, fetching each with the `web-fetch` tool:
+Use all three of these sources as inputs, fetching each with the `web-fetch` tool:
 
 - **GitHub Blog:** https://github.blog/latest/
 - **GitHub Changelog:** https://github.blog/changelog/
+- **Awesome Copilot workflows:** https://awesome-copilot.github.com/workflows/
 
 Identify recent updates that are useful to developers learning GitHub. Keep summaries short and practical, follow Mona's editorial guidance, and preserve the existing content structure and voice. Update only `site/content/github-info.md`. Add or refresh concise information that is supported by the fetched sources, and include a direct source link for every change based on the GitHub Blog or Changelog. Do not add speculative details or repeat existing content without a reason.
 
